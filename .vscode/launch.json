@@ -2,6 +2,100 @@
 	"version": "0.1.0",
 	"configurations": [
 		{
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}"
+			],
+			"name": "启动扩展",
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			],
+			"preLaunchTask": "npm",
+			"request": "launch",
+			"type": "extensionHost"
+		},
+		{
+			"name": "PowerShell Run Pester Tests",
+			"type": "PowerShell",
+			"request": "launch",
+			"script": "Invoke-Pester",
+			"createTemporaryIntegratedConsole": true,
+			"attachDotnetDebugger": true
+		},
+		{
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}"
+			],
+			"name": "启动扩展",
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			],
+			"preLaunchTask": "npm",
+			"request": "launch",
+			"type": "extensionHost"
+		},
+		{
+			"type": "java",
+			"name": "Launch Java Program",
+			"request": "launch",
+			"mainClass": ""
+		},
+		{
+			"type": "java",
+			"name": "Launch Java Program",
+			"request": "launch",
+			"mainClass": ""
+		},
+		{
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}"
+			],
+			"name": "启动扩展",
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			],
+			"preLaunchTask": "npm",
+			"request": "launch",
+			"type": "extensionHost"
+		},
+		{
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}"
+			],
+			"name": "启动扩展",
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			],
+			"preLaunchTask": "npm",
+			"request": "launch",
+			"type": "extensionHost"
+		},
+		{
+			"name": "C#: <project-name> Debug",
+			"type": "dotnet",
+			"request": "launch",
+			"projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+		},
+		{
+			"name": "Launch and Debug Hosted Blazor WebAssembly App",
+			"type": "blazorwasm",
+			"request": "launch",
+			"hosted": true,
+			"program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
+			"cwd": "${workspaceFolder}"
+		},
+		{
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}"
+			],
+			"name": "启动扩展",
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			],
+			"preLaunchTask": "npm",
+			"request": "launch",
+			"type": "extensionHost"
+		},
+		{
 			"type": "node",
 			"request": "launch",
 			"name": "Gulp Build",
